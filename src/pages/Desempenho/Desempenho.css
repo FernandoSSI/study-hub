@@ -1,0 +1,63 @@
+.graphContainer{
+    background-color: #fff;
+    width: 95%;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 0 20px 20px 20px;
+}
+
+.graphContainer > div{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.dateSpan{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 21px;
+    margin-bottom: -50px;
+}
+
+.dateSpan > span{
+    background-color: #fff;
+    margin-right: 7px;
+    width: 80px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.containerTotalQst{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+    margin-top: 25px;
+}
+
+.containerTotalQst > div {
+    width: 175px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:default;
+    
+}
+
+.containerTotalQst > div > p{
+    font-size: 18px;
+}
+
+.containerTotalQst > div > h2{
+    font-size: 80px;
+    margin: 0;
+}

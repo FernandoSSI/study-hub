@@ -1,0 +1,40 @@
+.navbarContainer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbarContainer ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.navbarContainer li{
+    font-size: 25px;
+    cursor: pointer;
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+.gray{
+    background-color: rgb(197, 197, 197);
+}

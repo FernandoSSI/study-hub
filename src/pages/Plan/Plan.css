@@ -1,0 +1,22 @@
+.planBtnContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.planBtnContainer button{
+    border: none;
+    border-radius: 25px;
+
+    background-color: #fff;
+    width: 350px;
+    height: 90px;
+
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 3px 18px -4px rgba(0, 0, 0, 0.144);
+
+}

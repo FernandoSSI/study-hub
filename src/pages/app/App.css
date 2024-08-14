@@ -1,0 +1,11 @@
+.App{
+  background-color: #4CCB70;
+  width: 400px;
+  height: 780px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+
+  border-radius: 20px;
+}

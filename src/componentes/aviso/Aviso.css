@@ -1,0 +1,26 @@
+
+.aviso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+    flex-wrap: wrap;
+
+    font-size: 18px;
+
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.excluirAviso{
+    color: rgb(177, 13, 13);
+}
+
+.hidden{
+    display: none;
+}

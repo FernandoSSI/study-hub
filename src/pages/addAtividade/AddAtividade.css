@@ -1,0 +1,59 @@
+.atividadesContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formAddAtv{
+    width: 100%;
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formAddAtv > input, .formAddAtv > select{
+    width: 320px;
+    height: 37px;
+    border: 1px solid #ececec;
+    box-shadow: 0px 3px 18px -4px rgba(0, 0, 0, 0.144);
+
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+
+    margin-top: 20px;
+
+}
+
+.formAddAtv > input::placeholder{
+    color: rgb(99, 99, 99);
+}
+
+.addAtvBtns{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.addAtvBtns button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#cancelarBtn:hover{
+    background-color: rgb(240, 87, 87);
+    color: #fff;
+}
+
+#salvarBtn:hover{
+    background-color: rgb(29, 165, 70);
+    color: #fff;
+}
+
+

@@ -1,0 +1,49 @@
+
+.actv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+    flex-wrap: wrap;
+
+    font-size: 18px;
+
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+.expand {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+
+    font-size: 18px;
+    flex-wrap: wrap;
+
+    margin-bottom: 20px;
+}
+
+.actvDescription{
+    width: 100%;
+    margin-top: -10px;
+}
+
+.excluirActv{
+    margin-top: -5px;
+    color: rgb(177, 13, 13);
+}
+
+.hidden{
+    display: none;
+}

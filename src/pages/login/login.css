@@ -1,0 +1,96 @@
+.loginContainer{
+    width: 100%;
+    height: 100%;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.formLoginContent{
+    width: 100%;
+    background-color: #fff;
+    height: 75%;
+    border-radius: 60px 60px 0 0;
+    margin-top: auto;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formLoginContent h1{
+    font-weight: 400;
+    margin-top: 70px;
+}
+
+.logoSpan{
+    font-size: 100px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.formLoginContent input{
+    width: 320px;
+    height: 55px;
+    border: 1px solid #ececec;
+    box-shadow: 0px 3px 18px -4px rgba(0, 0, 0, 0.144);
+
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+
+.formLoginContent button{
+    cursor: pointer;
+}
+
+
+.formLoginContent input::placeholder{
+    color: #c4c4c4;
+}
+
+#emailIpt{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+#passIpt{
+    margin-bottom: 30px;
+}
+
+
+
+.loginBtn{
+    width: 320px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(8, 107, 74);
+    border: none;
+    color: white;
+
+    box-shadow: 0px 3px 18px -4px rgba(0, 0, 0, 0.144);
+}
+
+.cadPageBtn{
+    margin-top: 75px;
+    color: #000;
+
+}
+
+.cadPageBtn:hover{
+    text-decoration: underline;
+}
+
+.visitantePage{
+    color: #000;
+}
+
+.visitantePage:hover{
+    text-decoration: underline;
+}
